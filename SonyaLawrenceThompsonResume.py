@@ -1,5 +1,3 @@
-# This is the code file used to create my resume
-
 # Resume details grouped by sections
 Header = '>>This resume was generated entirely in Python. For full source code, see portfolio link below.'
 Name = 'SONYA LAWRENCE-THOMPSON'.upper()
@@ -41,11 +39,6 @@ CertifOneTime = '2022'
 CertifOneDesc = 'Major: Data Science'
 CertifOneDesc2 = 'Learned:\n\t\t\t - Python, R, SQL,\n\t\t\t - Web-Scraping\n\t\t\t - Data Cleaning \n\t\t\t - Data Manipulation\n\t\t\t - Machine Learning \n\t\t\t - Data Analysis\n\t\t\t - Data Visualization\n\t\t\t - API integration'
 
-# FFHeader = 'Fun Facts'
-# FFOneTitle = 'Fluent in conversational Spanish'
-# FFTwoTitle = 'ESL Certified Instructor'
-# FFThreeTitle = 'Karate - Orange Belt'
-
 # Import styling package
 import matplotlib.pyplot as plt
 
@@ -61,7 +54,6 @@ ax.axvline(x=.5, ymin=0, ymax=1, color='#007ACC', alpha=0.0, linewidth=50)
 plt.axvline(x=.99, color='#000000', alpha=0.6, linewidth=300)
 plt.axhline(y=.88, xmin=0, xmax=1, color='#ffffff', linewidth=5)
 plt.axhline(y=.6, xmin=0, xmax=1, color='#ffffff', linewidth=5)
-# plt.axhline(y=.164, xmin=0, xmax=1, color='#ffffff', linewidth=5)
 
 # set background color
 ax.set_facecolor('white')
@@ -82,10 +74,6 @@ plt.annotate(CertifOneTitle, (.7,.38), weight='bold', fontsize=10, color='#fffff
 plt.annotate(CertifOneTime, (.7,.363), weight='regular', fontsize=9, alpha=.7, color='#ffffff')
 plt.annotate(CertifOneDesc, (.7,.343), weight='regular', fontsize=10, color='#ffffff')
 plt.annotate(CertifOneDesc2, (.7,.18), weight='regular', fontsize=10, color='#ffffff')
-# plt.annotate(FFHeader, (.7,.13), weight='bold', fontsize=11, color='#ffffff')
-# plt.annotate(FFOneTitle, (.7, .105), weight='regular', fontsize=10, color='#ffffff')
-# plt.annotate(FFTwoTitle, (.7, .09), weight='regular', fontsize=10, color='#ffffff')
-# plt.annotate(FFThreeTitle, (.7, .075), weight='regular', fontsize=10, color='#ffffff')
 plt.annotate(Name, (.02,.94), weight='bold', fontsize=19)
 plt.annotate(Title, (.02,.91), weight='regular', fontsize=14)
 plt.annotate(ProjectsHeader, (.02,.86), weight='bold', fontsize=10, color='#6b4d85')
