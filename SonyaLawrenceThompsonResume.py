@@ -1,39 +1,40 @@
 # Resume details grouped by sections
-Header = '>>This resume was generated entirely in Python. For full source code, see portfolio link below.'
+Header = '   This resume was generated entirely in Python using matplotlib.\n   See portfolio link for full source code: https://github.com/Sonya-7/Resume'
 Name = 'SONYA LAWRENCE-THOMPSON'.upper()
 Title = 'Financial Analysis & Data Science'
-Contact = 'New York, NY\n904-615-5819\nlawrences@huntington.edu\nlinkedin.com/in/sonya-lt\ngithub.com/sonya-7'
+contactHeader = 'CONTACT'
+Contact = 'New York, NY\n904-615-5819\nlawrences@huntington.edu\nlinkedin.com/in/sonya-lt\nhttps://sonya-personal-website.vercel.app'
 Portfolio = 'https://sonya-personal-website.vercel.app'
 
 ProjectsHeader = 'PROJECTS/PUBLICATIONS'
 ProjectOneTitle = 'Personal Reading Trends'
-ProjectOneDesc = '- Captivating visualization of personal literary journey\n- Interactive Power Bi dashboard and word clouds\n- Read 1 book per month; goal achieved'
+ProjectOneDesc = '- Captivating visualization of my recent literary journey\n- Interactive Power Bi dashboard and word clouds\n- Read 1 book per month; goal achieved'
 ProjectTwoTitle = 'US Data-Job Salary Trends'
 ProjectTwoDesc = '- Created in a Jupyter Notebook using Python\n- In-depth analysis of North American data related job salaries\n- Personal research and data analysis for salary negotiation'
 ProjectThreeTitle = 'IBM Data Science Capstone'
-ProjectThreeDesc = '- Real-world Data Science problem simulation\n- Created machine learning model for accurate aerospace predictions\n- Successfully predicted likelihood of SpaceX\'s Falcon 9 first stage landing'
+ProjectThreeDesc = '- Real-world Data Science problem simulation\n- Created machine learning models (MLM) for accurate aerospace predictions\n- Successfully predicted the likelihood of SpaceX\'s Falcon 9 first-stage landing'
 
-WorkHeader = 'EXPERIENCE'
+WorkHeader = 'RELEVANT EXPERIENCE'
 WorkOneTitle = 'Financial Analyst\n Jacksonville Orthopaedic Institute'
-WorkOneTime = 'Sep 2022 - Oct 2023'
+WorkOneTime = ' Sep 2022 - Oct 2023'
 WorkOneDesc = '- Implemented budget processes and conducted monthly variance analysis\n- Created new data management tools and dashboards for 7 medical facilities\n- Automated company-wide processes with SQL, Excel, PowerBi, and Python'
 WorkTwoTitle = 'Data Quality Analyst\n FCRD Services'
-WorkTwoTime = 'Nov 2020 - Sep 2022'
-WorkTwoDesc = '- Built and maintained financial models for ROI and cash flow projections\n- Designed key performance indicators to guide company wide data analysis\n- Developed dashboards to measure and monitor product and service effectiveness'
+WorkTwoTime = ' Nov 2020 - Sep 2022'
+WorkTwoDesc = '- Built and maintained financial models for ROI and cash flow projections\n- Designed key performance indicators to guide company-wide data analysis\n- Developed dashboards to measure and monitor product and service effectiveness'
 WorkThreeTitle = 'Accountant Assistant\n Indiana Stamp Company'
-WorkThreeTime = 'Dec 2019 - Nov 2020'
+WorkThreeTime = ' Dec 2019 - Nov 2020'
 WorkThreeDesc = '- Improved accounts payable efficiency by over 90%\n- Oversaw daily and monthly bank reconciliation statements\n- Managed customer data using proprietary software and cloud-based systems'
 WorkFourTitle = "Staff Accountant/Office Manager\n BT'S Plumbing and Heating"
-WorkFourTime = 'Jul 2016 - Oct 2019'
+WorkFourTime = ' Jul 2016 - Oct 2019'
 WorkFourDesc = '- Directed company-wide data transformation from hardware to software\n- Analyzed complex business problems, providing practical solutions\n- Managed financial data using QuickBooks, Excel, and other business software'
 
 SkillsHeader = 'SKILLS'
-SkillsDesc = '- Excel\n- SQL\n- Python\n- Pandas\n- NumPy\n- Data Visualization\n- Data Cleaning\n- Probability/Statistics\n- Data Manipulation\n- Data Storytelling\n- Power Bi'
+SkillsDesc = '- Excel\n- SQL\n- Python\n- Data Visualization\n- Data Cleaning\n- Probability/Statistics\n- Data Modeling\n- Data Manipulation\n- Data Transformation\n- Data Storytelling\n- Power Bi'
 
 EduHeader = 'EDUCATION'
 EduOneTitle = 'Huntington University\nBachelors Degree\nCum Laude'
 EduOneTime = '2012 - 2016'
-EduOneDesc = 'Major 1: Accounting\nMajor 2: Psychology\nMinor: Management'
+EduOneDesc = 'Major 1: Accounting\nMajor 2: Psychology\nMinor 1: Management'
 CertifOneTitle = 'EdX\nProfessional Certificate'
 CertifOneTime = '2022'
 CertifOneDesc = 'Major: Data Science'
@@ -62,7 +63,7 @@ ax.set_facecolor('white')
 plt.axis('off')
 
 # add texts to complete resume
-plt.annotate(Header, (.02,.98), weight='regular', fontsize=8, alpha=.6)
+plt.annotate(contactHeader, (.7,.98), weight='bold', fontsize=10, color='#ffffff')
 plt.annotate(Contact, (.7,.906), weight='regular', fontsize=8, color='#ffffff')
 plt.annotate(SkillsHeader, (.7,.85), weight='bold', fontsize=11, color='#ffffff')
 plt.annotate(SkillsDesc, (.711,.645), weight='regular', fontsize=10, color='#ffffff')
@@ -87,15 +88,15 @@ plt.annotate(WorkHeader, (.02,.556), weight='bold', fontsize=10, color='#6b4d85'
 plt.annotate(WorkOneTitle, (.02,.508), weight='bold', fontsize=10)
 plt.annotate(WorkOneTime, (.02,.488), weight='regular', fontsize=9, alpha=.6)
 plt.annotate(WorkOneDesc, (.04,.44), weight='regular', fontsize=9)
-plt.annotate(WorkTwoTitle, (.02,.40), weight='bold', fontsize=10)
-plt.annotate(WorkTwoTime, (.02,.38), weight='regular', fontsize=9, alpha=.6)
-plt.annotate(WorkTwoDesc, (.04,.332), weight='regular', fontsize=9)
-plt.annotate(WorkThreeTitle, (.02,.292), weight='bold', fontsize=10)
-plt.annotate(WorkThreeTime, (.02,.272), weight='regular', fontsize=9, alpha=.6)
-plt.annotate(WorkThreeDesc, (.04,.224), weight='regular', fontsize=9)
-plt.annotate(WorkFourTitle, (.02,.184), weight='bold', fontsize=10)
-plt.annotate(WorkFourTime, (.02,.164), weight='regular', fontsize=9, alpha=.6)
-plt.annotate(WorkFourDesc, (.04,.116), weight='regular', fontsize=9)
-plt.annotate(Portfolio, (.02,.005), weight='bold', fontsize=10)
+plt.annotate(WorkTwoTitle, (.02,.394), weight='bold', fontsize=10)
+plt.annotate(WorkTwoTime, (.02,.374), weight='regular', fontsize=9, alpha=.6)
+plt.annotate(WorkTwoDesc, (.04,.326), weight='regular', fontsize=9)
+plt.annotate(WorkThreeTitle, (.02,.28), weight='bold', fontsize=10)
+plt.annotate(WorkThreeTime, (.02,.26), weight='regular', fontsize=9, alpha=.6)
+plt.annotate(WorkThreeDesc, (.04,.212), weight='regular', fontsize=9)
+plt.annotate(WorkFourTitle, (.02,.166), weight='bold', fontsize=10)
+plt.annotate(WorkFourTime, (.02,.146), weight='regular', fontsize=9, alpha=.6)
+plt.annotate(WorkFourDesc, (.04,.098), weight='regular', fontsize=9)
+plt.annotate(Header, (.02,.005), weight='regular', fontsize=8, alpha=.6)
 
-plt.savefig('SonyaLawrenceThompsonResume.pdf', dpi=300, bbox_inches='tight')
+plt.savefig('! (SonyaLawrenceThompsonResume).pdf', dpi=300, bbox_inches='tight')
