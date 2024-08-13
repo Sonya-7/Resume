@@ -4,7 +4,7 @@
   <img  src="https://github.com/user-attachments/assets/0c6331c9-4e26-4a52-8f06-a442579d3fec" width="10%" height="10%"/>
   &nbsp;
 
-This repository contains my [resume file](https://github.com/Sonya-7/Resume/blob/main/!%20(SonyaLawrenceThompsonResume).pdf); 
+This repository contains my [resume file](https://github.com/Sonya-7/Resume/blob/main/!%20(SonyaLawrenceThompsonResume).pdf) 
 along with the [Python code file](https://github.com/Sonya-7/Resume/blob/main/SonyaLawrenceThompsonResume.py) from which it was generated.
 
 As an enthusiastic and intrinsically motivated data professional, I am excited about the opportunity to contribute my skills and experience to a forward-thinking team. My career journey has equipped me with a unique combination of analytical expertise, financial acumen, and a deep understanding of data management and visualization.
