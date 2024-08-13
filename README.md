@@ -1,10 +1,15 @@
-**Cover Letter**
 
-Please see my resume file [here](https://github.com/Sonya-7/Resume/blob/main/!%20(SonyaLawrenceThompsonResume).pdf)
 
-As a passionate and driven data professional, I am excited about the opportunity to contribute my skills and experience to a forward-thinking team. My career journey has equipped me with a unique blend of analytical expertise, financial acumen, and a deep understanding of data management and visualization.
+<p  align="left">
+  <img  src="https://github.com/user-attachments/assets/0c6331c9-4e26-4a52-8f06-a442579d3fec" width="10%" height="10%"/>
+  &nbsp;
 
-In my role as a Financial Analyst, I implemented budget processes and conducted detailed variance analysis across multiple medical facilities, leading to improved financial oversight and decision-making. My experience in creating data management tools and dashboards using SQL, Excel, PowerBi, and Python has streamlined operations and provided actionable insights.
+This repository contains my [resume file](https://github.com/Sonya-7/Resume/blob/main/!%20(SonyaLawrenceThompsonResume).pdf); 
+along with the [Python code file](https://github.com/Sonya-7/Resume/blob/main/SonyaLawrenceThompsonResume.py) from which it was generated.
+
+As an enthusiastic and intrinsically motivated data professional, I am excited about the opportunity to contribute my skills and experience to a forward-thinking team. My career journey has equipped me with a unique combination of analytical expertise, financial acumen, and a deep understanding of data management and visualization.
+
+As a Financial Analyst, I implemented budget processes and conducted detailed variance analysis across multiple medical facilities, leading to improved financial oversight and decision-making. My experience in creating data management tools and dashboards using SQL, Excel, PowerBi, and Python has streamlined operations and provided actionable insights.
 
 As a Data Quality Analyst, I developed financial models and KPIs that guided company-wide data analysis, ensuring data accuracy and integrity. My ability to design and develop dashboards has been instrumental in measuring product effectiveness and driving business improvements.
 
