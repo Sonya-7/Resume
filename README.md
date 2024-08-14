@@ -16,3 +16,8 @@ As a Data Quality Analyst, I developed financial models and KPIs that guided com
 Throughout my career, I have consistently demonstrated a commitment to enhancing business processes through data-driven strategies. My background in accounting and financial management further complements my technical skills, allowing me to provide well-rounded solutions to complex business challenges.
 
 I am excited about the opportunity to leverage my experience in data analysis and financial management to contribute to innovative projects and drive success in future endeavors.
+
+<p  align="center">
+  <img  src="https://github.com/user-attachments/assets/f5094d73-e0e0-45e4-b4b0-8ba7b806f430" width="10%" height="10%"/>
+  &nbsp;
+
