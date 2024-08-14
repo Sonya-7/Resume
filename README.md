@@ -17,7 +17,4 @@ Throughout my career, I have consistently demonstrated a commitment to enhancing
 
 I am excited about the opportunity to leverage my experience in data analysis and financial management to contribute to innovative projects and drive success in future endeavors.
 
-<p  align="center">
-  <img  src="https://github.com/user-attachments/assets/f5094d73-e0e0-45e4-b4b0-8ba7b806f430" width="10%" height="10%"/>
-  &nbsp;
-
+👏 Special thank to [Eddie Kirkland](https://github.com/e-kirkland) for the inspiration to generate this resume 👏
