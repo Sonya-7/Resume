@@ -5,6 +5,7 @@ Title = 'Financial Analysis & Data Science'
 contactHeader = 'CONTACT'
 Contact = 'New York, NY\n904-615-5819\nlawrences@huntington.edu\nlinkedin.com/in/sonya-lt\nhttps://sonya-personal-website.vercel.app'
 Portfolio = 'https://sonya-personal-website.vercel.app'
+QRHeader = 'PORTFOLIO'
 
 ProjectsHeader = 'PROJECTS/PUBLICATIONS'
 ProjectOneTitle = 'Personal Reading Trends'
@@ -42,6 +43,8 @@ CertifOneDesc2 = 'Learned:\n\t\t\t - Python, R, SQL,\n\t\t\t - Web-Scraping\n\t\
 
 # Import styling package
 import matplotlib.pyplot as plt
+from matplotlib.offsetbox import TextArea, DrawingArea, OffsetImage, AnnotationBbox
+import matplotlib.image as mpimg
 
 # set font
 plt.rcParams['font.family'] = 'sans-serif'
@@ -55,6 +58,7 @@ ax.axvline(x=.5, ymin=0, ymax=1, color='#007ACC', alpha=0.0, linewidth=50)
 plt.axvline(x=.99, color='#000000', alpha=0.6, linewidth=300)
 plt.axhline(y=.88, xmin=0, xmax=1, color='#ffffff', linewidth=5)
 plt.axhline(y=.6, xmin=0, xmax=1, color='#ffffff', linewidth=5)
+plt.axhline(y=.146, xmin=0, xmax=1, color='#ffffff', linewidth=5)
 
 # set background color
 ax.set_facecolor('white')
@@ -62,7 +66,7 @@ ax.set_facecolor('white')
 # remove axes
 plt.axis('off')
 
-# add texts to complete resume
+# add right bound texts to complete resume
 plt.annotate(contactHeader, (.7,.98), weight='bold', fontsize=10, color='#ffffff')
 plt.annotate(Contact, (.7,.906), weight='regular', fontsize=8, color='#ffffff')
 plt.annotate(SkillsHeader, (.7,.85), weight='bold', fontsize=11, color='#ffffff')
@@ -71,10 +75,19 @@ plt.annotate(EduHeader, (.7,.57), weight='bold', fontsize=11, color='#ffffff')
 plt.annotate(EduOneTitle, (.7,.51), weight='bold', fontsize=10, color='#ffffff')
 plt.annotate(EduOneTime, (.7,.49), weight='regular', fontsize=9, alpha=.7, color='#ffffff')
 plt.annotate(EduOneDesc, (.7,.44), weight='regular', fontsize=9, color='#ffffff')
-plt.annotate(CertifOneTitle, (.7,.38), weight='bold', fontsize=10, color='#ffffff')
-plt.annotate(CertifOneTime, (.7,.363), weight='regular', fontsize=9, alpha=.7, color='#ffffff')
-plt.annotate(CertifOneDesc, (.7,.343), weight='regular', fontsize=10, color='#ffffff')
-plt.annotate(CertifOneDesc2, (.7,.18), weight='regular', fontsize=10, color='#ffffff')
+plt.annotate(CertifOneTitle, (.7,.39), weight='bold', fontsize=10, color='#ffffff')
+plt.annotate(CertifOneTime, (.7,.373), weight='regular', fontsize=9, alpha=.7, color='#ffffff')
+plt.annotate(CertifOneDesc, (.7,.353), weight='regular', fontsize=10, color='#ffffff')
+plt.annotate(CertifOneDesc2, (.7,.19), weight='regular', fontsize=10, color='#ffffff')
+
+#add portfolio qr code
+plt.annotate(QRHeader, (.7,.12), weight='bold', fontsize=10, color='#ffffff')
+qr_code = mpimg.imread('qrcode_sonya-personal-website.vercel.app.png')
+imagebox = OffsetImage(qr_code, zoom=0.12)
+bx = AnnotationBbox(imagebox, (0.84, 0.066))
+ax.add_artist(bx)
+
+# add left bound texts to complete resume
 plt.annotate(Name, (.02,.94), weight='bold', fontsize=19)
 plt.annotate(Title, (.02,.91), weight='regular', fontsize=14)
 plt.annotate(ProjectsHeader, (.02,.86), weight='bold', fontsize=10, color='#6b4d85')
@@ -99,4 +112,5 @@ plt.annotate(WorkFourTime, (.02,.146), weight='regular', fontsize=9, alpha=.6)
 plt.annotate(WorkFourDesc, (.04,.098), weight='regular', fontsize=9)
 plt.annotate(Header, (.02,.005), weight='regular', fontsize=8, alpha=.6)
 
+# Save resume file
 plt.savefig('! (SonyaLawrenceThompsonResume).pdf', dpi=300, bbox_inches='tight')
