@@ -11,3 +11,9 @@ This repository holds my [resume](https://github.com/Sonya-7/Resume/blob/main/!%
 I'm Sunny, a data enthusiast who loves using numbers to tell stories and solve problems. My passion for data is matched only by my curiosity to explore its endless possibilities — from financial analytics to creative visualizations. Whether it's streamlining operations or diving into the latest tech, I’m all about using my skills in new and exciting ways. Let's turn data into insights and insights into impact!
 
 👏 Special thank to [Eddie Kirkland](https://github.com/e-kirkland) for the inspiration to generate this resume. 👏
+
+## Resume Preview
+
+<p  align="left">
+  <img  src="https://github.com/user-attachments/assets/ee04744d-20bb-478d-adc6-b541bf091b1a" width="25%" height=25%/>
+
