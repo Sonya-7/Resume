@@ -15,5 +15,6 @@ I'm Sunny, a data enthusiast who loves using numbers to tell stories and solve p
 ## Resume Preview
 
 <p  align="left">
-  <img  src="https://github.com/user-attachments/assets/ee04744d-20bb-478d-adc6-b541bf091b1a" width="25%" height=25%/>
+  <img  src="https://github.com/user-attachments/assets/792c8ee6-5ade-4ab4-a47e-4762ef619d27" width="25%" height=25%/>
+
 
