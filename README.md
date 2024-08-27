@@ -7,8 +7,8 @@
 ### Welcome to My Data-Driven Journey!
 
 This repository holds my 
-[resume](https://github.com/Sonya-7/Resume/blob/main/!%20(SonyaLawrenceThompsonResume).pdf)
-, powered by 
+[resume,](https://github.com/Sonya-7/Resume/blob/main/!%20(SonyaLawrenceThompsonResume).pdf)
+ powered by 
 [Python](https://github.com/Sonya-7/Resume/blob/main/SonyaLawrenceThompsonResume.py)
  magic! 🌟 
 
