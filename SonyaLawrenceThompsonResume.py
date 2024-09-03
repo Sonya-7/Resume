@@ -3,8 +3,8 @@ Header = '   This resume was generated entirely in Python using matplotlib.\n   
 Name = 'SONYA LAWRENCE-THOMPSON'.upper()
 Title = 'Financial Data Analysis & Data Science'
 contactHeader = 'CONTACT'
-Contact = 'New York, NY\n904-615-5819\nlawrences@huntington.edu\nlinkedin.com/in/sonya-lt\nhttps://sonya-personal-website.vercel.app'
-Portfolio = 'https://sonya-personal-website.vercel.app'
+Contact = 'New York, NY\n904-615-5819\nlawrences@huntington.edu\nlinkedin.com/in/sonya-lt\nhttps://sonyalt.vercel.app'
+Portfolio = 'https://sonyalt.vercel.app'
 QRHeader = 'PORTFOLIO'
 
 ProjectsHeader = 'PROJECTS/PUBLICATIONS'
@@ -82,7 +82,7 @@ plt.annotate(CertifOneDesc2, (.7,.19), weight='regular', fontsize=10, color='#ff
 
 #add portfolio qr code
 plt.annotate(QRHeader, (.7,.12), weight='bold', fontsize=10, color='#ffffff')
-qr_code = mpimg.imread('qrcode_sonya-personal-website.vercel.app.png')
+qr_code = mpimg.imread('qrcode_sonyalt.vercel.app.png')
 imagebox = OffsetImage(qr_code, zoom=0.12)
 bx = AnnotationBbox(imagebox, (0.84, 0.066))
 ax.add_artist(bx)
