@@ -20,18 +20,35 @@ I'm Sonya, a data enthusiast who loves using numbers to tell stories and solve p
 * **Relevant Coursework**: Machine Learning, Deterministic Optimization, Computing for Data Analytics, Data and Visual Analytics
 
 
-**Huntington University**, Bachelor of Science in Accounting & Bachelor of Arts in Psychology | 3.6 GPA | May 2016
+**Huntington University**, Bachelor of Science in Accounting & Bachelor of Arts in Psychology | Cum Laude | May 2016
 * **Relevant Coursework**: Advanced Accounting, Introduction to Computers, Microsoft Analytics
+* Full academic scholarship
 
 ## Skills
 Python, SQL, Power BI, Git, Excel
 
 ## Interests
-Reading, Learning, Nature, Travel
+Data, Reading, Learning, Nature, Travel
 
+<!-- update secion with project information
 ## Projects
+[**Using Sentiment Analysis to Visualize Character Arcs in Avatar: The Last Airbender**](https://github.com/ritakalach/atla-sentiment-analysis) | *Apr 2020*
+* **Created using Jupyter Notebook for Python**
+* **Motivation**: Was curious if sentiment scores could be used to map a character's arc over the course of a story
+* Scraped the web for episode transcripts with *Beautiful Soup*
+* Manipulated the gathered data with *pandas* and analyzed character dialogue using *VADER*
+* Created [interactive visualizations](https://chart-studio.plotly.com/~ritakalach/4/#/) of the sentiment scores with *Plotly Express*
+* Published detailed project tutorial and discussion on [Medium](https://medium.com/data-comet/atla-sentiment-analysis-43f26edddad2) (500+ views)
 
+[**Twitter Bot**](https://github.com/ritakalach/twitter-bot) | *Oct 2020*
+* **Built in Python with Tweepy**
+* **Motivation**: Share a backlog of book quotes stored in a text file
+* Automated tweets via the Twitter API
 
+[**Instagram Unfollow Tool**](https://github.com/ritakalach/ig-unfollow-tool) | *Dec 2020*
+* **Built in Python with Selenium**
+* Automated the process of unfollowing Instagram accounts that don't follow you back
+-->
 
 ## Experience
 **Financial Analyst**, JOI | Hybrid | Sep. 2022 - Oct. 2023
@@ -44,6 +61,8 @@ Reading, Learning, Nature, Travel
 
 ## Resume Preview
 <p  align="left">
-  <img  src="https://github.com/user-attachments/assets/792c8ee6-5ade-4ab4-a47e-4762ef619d27" width="25%" height=25%/>
+  <img  src="https://github.com/user-attachments/assets/efc259b8-6216-483c-a729-99cd7b3e45fd" width="25%" height=25%/>
+
+
 
 
